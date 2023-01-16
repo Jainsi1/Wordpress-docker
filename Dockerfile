@@ -6,7 +6,7 @@ RUN apt update && \
     apt install -y \
     vim \
     wget \
-    apt install marialdb-client
+    mariadb-client
     
 COPY php.ini /usr/local/etc/php
 
